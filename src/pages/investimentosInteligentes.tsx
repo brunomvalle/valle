@@ -22,12 +22,14 @@ const investimentosInteligentes = () => {
           usando conceitos que qualquer pessoa leiga no assunto consiga entender. Veja só alguns dos tópicos do seu livro.
           </Text>
           <Text my={4}>
-          1. Investir é multiplicar;
-          2. Obstáculos ao investidor iniciante;
-          3. O que não fazer;
-          6. Estratégias inteligêntes em renda fixa;
-          7. Estratégia inteligentes com ações;
-          10. Estratégia inteligentes com imóveis.
+          <ul>
+            <li>Investir é multiplicar</li>
+            <li>Obstáculos ao investidor iniciante</li>
+            <li>O que não fazer</li>
+            <li>Estratégias inteligêntes em renda fixa</li>
+            <li>Estratégia inteligentes com ações</li>
+            <li>Estratégia inteligentes com imóveis</li>            
+          </ul>
           </Text>
           <Text my={4}>
           E no meio do caminho você ainda aprende sobre SELIC, IPC-A, CDB, Clubes de Investimentos, entre outras siglas ou girias utilizadas no mercado financeiro.
