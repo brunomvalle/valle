@@ -4,9 +4,17 @@ import LinkTelegram from '../components/LinkTelegram';
 
 const investimentosInteligentes = () => {
   return (
+<<<<<<< HEAD
+    <Flex flexDir="column" m={3} alignItems="center">
+      <Card p={3} alignItems="center" maxW="1000px">
+        <Text fontSize="4xl">
+          O que é Investimento?a
+        </Text>
+=======
     <Flex flexDir='column' m={3} alignItems='center'>
       <Card p={3} alignItems='center' maxW='1000px'>
         <Text fontSize='4xl'>O que é Investimento?b</Text>
+>>>>>>> b5bd35ca386fd4a18d599573bd5a942a609ee86e
         <Text my={4}>
           Segundo Gustavo Cerbasi, Investir é <strong>MULTIPLICAR.</strong>
         </Text>
