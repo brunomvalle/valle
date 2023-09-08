@@ -6,7 +6,7 @@ const investimentosInteligentes = () => {
   return (
     <Flex flexDir='column' m={3} alignItems='center'>
       <Card p={3} alignItems='center' maxW='1000px'>
-        <Text fontSize='4xl'>O que é Investimento?b</Text>
+        <Text fontSize='4xl'>O que é Investimento?</Text>
         <Text my={4}>
           Segundo Gustavo Cerbasi, Investir é <strong>MULTIPLICAR.</strong>
         </Text>
