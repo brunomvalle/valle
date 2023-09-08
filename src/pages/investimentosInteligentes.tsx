@@ -41,8 +41,7 @@ const investimentosInteligentes = () => {
         </Text>
         <LinkAmazon
           link={
-            'https://www.amazon.com.br/Aquecedor-Termo-Ceramic-Mondial-Cinza/dp/B077PXBYZ8'
-          }
+            'https://amzn.to/45K9TYb'}
         />
       </Card>
     </Flex>
