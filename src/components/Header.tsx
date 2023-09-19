@@ -44,7 +44,7 @@ const Header = () => {
       pages: [
         {
           name: "Investimentos Inteligentes",
-          href: "/investimentosInteligentes",
+          href: "/livros/investimentosInteligentes",
         },
       ],
     },

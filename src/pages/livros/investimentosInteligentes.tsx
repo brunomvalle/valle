@@ -1,6 +1,5 @@
 import { Flex, Card, Text } from '@chakra-ui/react';
-import LinkAmazon from '../components/LinkAmazon';
-import LinkTelegram from '../components/LinkTelegram';
+import LinkAmazon from '../../components/LinkAmazon';
 
 const investimentosInteligentes = () => {
   return (
@@ -39,10 +38,7 @@ const investimentosInteligentes = () => {
           mercado financeiro. E ai, está esperando o que para aprender tudo
           isso?
         </Text>
-        <LinkAmazon
-          link={
-            'https://amzn.to/45K9TYb'}
-        />
+        <LinkAmazon link={'https://amzn.to/45K9TYb'} />
       </Card>
     </Flex>
   );
