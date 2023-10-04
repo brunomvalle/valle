@@ -242,7 +242,7 @@ const Calculadora = () => {
           </Button>
         </Flex>
       </Flex>
-      <Flex flexDir="column">
+      <Flex flexDir="column" w="100%" alignItems="center">
         <Text>Resultado</Text>
         <Flex flexDir={["column", "column", "row", "row"]}>
           <Flex

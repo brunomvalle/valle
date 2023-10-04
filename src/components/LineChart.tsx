@@ -22,16 +22,39 @@ export default function LineChart({ data }: LineChartData) {
       data: data.map((d) => d.totalAcumulado),
       label: "Total Acumulado",
       pointStyle: false,
+      borderColor: "dodgerblue",
+      backgroundColor: "dodgerblue",
+    },
+    {
+      data: data.map((d) => d.totalInvestido),
+      label: "Total Investido",
+      pointStyle: false,
+      borderColor: "tomato",
+      backgroundColor: "tomato",
+    },
+    {
+      data: data.map((d) => d.totalJuros),
+      label: "Total Juros",
+      pointStyle: false,
+      borderColor: "mediumseagreen",
+      backgroundColor: "mediumseagreen",
     },
   ];
   const labels = data.map((d) => d.mes);
-
+  const windowWidth = window.innerWidth;
   return (
-    <Box my={5}>
+    <Box my={10} w="100%">
       <Line
         data={{
           datasets,
           labels,
+        }}
+        options={{
+          scales: {
+            y: {
+              display: windowWidth > 640,
+            },
+          },
         }}
       />
     </Box>
